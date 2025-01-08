@@ -101,9 +101,3 @@ Contributions are welcome! If you would like to contribute to this project, plea
 3. Make your changes.
 4. Submit a pull request.
 
-## License
-
-This project is open-source and available under the MIT License.
-```
-
-This version is formatted with proper Markdown syntax, provides clear section headings, and organizes the content in a logical flow to enhance readability and usability.
