@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    My app
+{% endblock title %}
+
+{% block content %}
+    <p class='text-center text-white mt-5'>Are you sure that you want to delete the blog? </p>
+
+
+      <form method="POST" class="mx-auto">
+        {% csrf_token %}
+        <input type="hidden" name="pk" value="{{ blog.id }}" class="mx-auto">
+        <button type="submit" class="btn btn-danger">Delete</button>
+
+        <a href="{% url 'blog_list' %}" class="btn btn-success">Cancel</a>
+      </form>
+
+
+
+
+
+
+  
+{% endblock content %}
